@@ -14,7 +14,7 @@
         <!-- 2. Header con el logo del lado izquierdo -->
         <header class="site-header">
             <div class="logo-container">
-                <img src="assets/kisun.jpg" alt="Logo del sitio" class="site-logo">
+                <img src="assets/kitsun.jpg" alt="Logo del sitio" class="site-logo">
             </div>
             <nav class="header-nav">
                 <h2>Kitsu Games / Cloud App</h2>
