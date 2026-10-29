@@ -1,0 +1,139 @@
+/* Reseteo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Imagen de fondo en el body general */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('assets/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+/* Contenedor principal que envuelve todo el sitio */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgba(15, 23, 42, 0.85); /* Overlay oscuro para legibilidad */
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Header */
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #1e293b;
+    border-bottom: 2px solid #38bdf8;
+}
+
+/* Logo alineado a la izquierda dentro del header */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.site-logo {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
+.header-nav h2 {
+    font-size: 1.2rem;
+    color: #38bdf8;
+}
+
+/* Body / Contenido Principal */
+.site-body {
+    flex: 1;
+    padding: 3rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #1e293b;
+    padding: 2.5rem;
+    border-radius: 12px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #334155;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+}
+
+.card h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #f8fafc;
+}
+
+.card p {
+    color: #94a3b8;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+/* Enlace a Video de Streaming */
+.video-section {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #334155;
+}
+
+.video-section h3 {
+    margin-bottom: 0.5rem;
+    color: #f1f5f9;
+}
+
+.btn-streaming {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #e11d48;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.3rem ease;
+}
+
+.btn-streaming:hover {
+    background-color: #be123c;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #0f172a;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    border-top: 1px solid #1e293b;
+    font-size: 0.9rem;
+    color: #94a3b8;
+}
+
+.footer-content p {
+    margin: 0.3rem 0;
+}
+
+.footer-content a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
